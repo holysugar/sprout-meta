@@ -1,0 +1,88 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    dmg (1.1.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: osx
+  ref: master
+  sha: ca774575b5dbe05509af3e613398433d20955c1b
+  specs:
+    osx (0.1.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: pivotal_workstation
+  ref: master
+  sha: ca774575b5dbe05509af3e613398433d20955c1b
+  specs:
+    pivotal_workstation (1.0.0)
+      dmg (>= 0.0.0)
+      osx (>= 0.0.0)
+      sprout-osx-apps (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+      sprout-pivotal (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-apps
+  ref: master
+  sha: ca774575b5dbe05509af3e613398433d20955c1b
+  specs:
+    sprout-osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-base
+  ref: master
+  sha: ca774575b5dbe05509af3e613398433d20955c1b
+  specs:
+    sprout-osx-base (0.1.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-settings
+  ref: master
+  sha: ca774575b5dbe05509af3e613398433d20955c1b
+  specs:
+    sprout-osx-settings (0.1.0)
+      osx (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-pivotal
+  ref: master
+  sha: ca774575b5dbe05509af3e613398433d20955c1b
+  specs:
+    sprout-pivotal (0.1.0)
+      dmg (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+PATH
+  remote: ../sprout-holysugar/site-cookbooks/osx
+  specs:
+    sprout-holysugar (0.1.0)
+
+PATH
+  remote: site-cookbooks/meta
+  specs:
+    meta (0.1.0)
+      pivotal_workstation (>= 0.0.0)
+      sprout-osx-apps (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
+DEPENDENCIES
+  meta (>= 0)
+  osx (>= 0)
+  pivotal_workstation (>= 0)
+  sprout-holysugar (>= 0)
+  sprout-osx-apps (>= 0)
+  sprout-osx-base (>= 0)
+  sprout-osx-settings (>= 0)
+  sprout-pivotal (>= 0)
+
