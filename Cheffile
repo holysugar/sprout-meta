@@ -4,7 +4,7 @@ cookbook 'meta',
   :path => 'site-cookbooks/meta'
 
 cookbook 'sprout-holysugar',
-  :git => 'git://github.com/holysugar/sprout-holysugar.git',
+  :git => 'git://github.com/holysugar/sprout-holysugar.git'
 
 cookbook 'sprout-osx-base',
   :git => 'git://github.com/pivotal-sprout/sprout.git',

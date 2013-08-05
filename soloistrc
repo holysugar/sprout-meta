@@ -1,4 +1,5 @@
 recipes:
 - meta::holysugar
+- meta::homebrew
 node_attributes:
 
