@@ -24,3 +24,5 @@ include_recipe "sprout-holysugar::limechat"
 
 include_recipe "sprout-holysugar::googlejapaneseinput"
 include_recipe "sprout-holysugar::rbenv"
+
+include_recipe "sprout-osx-apps::vagrant"
