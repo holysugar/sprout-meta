@@ -7,7 +7,7 @@ SITE
 GIT
   remote: git://github.com/holysugar/sprout-holysugar.git
   ref: master
-  sha: 9c41f62c7070ddc271e73f6cba90d54e09090d47
+  sha: 6eb2bf3d87de8f45796097f45dd75265955d7116
   specs:
     sprout-holysugar (0.1.0)
       sprout-osx-base (>= 0.0.0)
@@ -16,7 +16,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: osx
   ref: master
-  sha: 0d183e80d6336ade7359a13bc0deea18c978e0cf
+  sha: 366d51e3d51dee02033d061229a6d0be27a11aac
   specs:
     osx (0.1.0)
 
@@ -24,7 +24,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: pivotal_workstation
   ref: master
-  sha: 0d183e80d6336ade7359a13bc0deea18c978e0cf
+  sha: 366d51e3d51dee02033d061229a6d0be27a11aac
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
@@ -38,7 +38,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-apps
   ref: master
-  sha: 0d183e80d6336ade7359a13bc0deea18c978e0cf
+  sha: 366d51e3d51dee02033d061229a6d0be27a11aac
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
@@ -49,7 +49,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-base
   ref: master
-  sha: 0d183e80d6336ade7359a13bc0deea18c978e0cf
+  sha: 366d51e3d51dee02033d061229a6d0be27a11aac
   specs:
     sprout-osx-base (0.1.0)
 
@@ -57,7 +57,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-osx-settings
   ref: master
-  sha: 0d183e80d6336ade7359a13bc0deea18c978e0cf
+  sha: 366d51e3d51dee02033d061229a6d0be27a11aac
   specs:
     sprout-osx-settings (0.1.0)
       osx (>= 0.0.0)
@@ -67,7 +67,7 @@ GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: sprout-pivotal
   ref: master
-  sha: 0d183e80d6336ade7359a13bc0deea18c978e0cf
+  sha: 366d51e3d51dee02033d061229a6d0be27a11aac
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
